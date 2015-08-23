@@ -23,4 +23,8 @@ class MyApp < Sinatra::Base
   get '/index.erb' do
     erb :index
   end 
+  
+  get '/myapps.erb' do
+    erb :myapps
+  end 
 end
